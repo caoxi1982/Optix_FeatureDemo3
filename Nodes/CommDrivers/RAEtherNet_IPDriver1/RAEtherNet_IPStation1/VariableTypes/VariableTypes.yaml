@@ -1,0 +1,68 @@
+Name: VariableTypes
+Id: g=ee4ba8e6256a3bdbb8c2f652a499cd34
+Type: FolderType
+Children:
+- Name: Cookie_Quality
+  Id: g=68a50ae5312eea10d66b04305d89d02e
+  Supertype: TagStructure
+  DataType: Cookie_Quality
+  ValueRank: Any
+  Value: 
+   {
+    "TypeId": {
+     "IdType": 2,
+     "Id": "7116069abd2b3545eae11d8c593609bd",
+     "Namespace": 34
+    },
+    "Body": {
+     "Diameter": 0.0,
+     "Exit_Temperature": 0.0,
+     "Height": 0.0,
+     "Quality_Index": 0.0
+    }
+   }
+  Children:
+  - Name: Diameter
+    Id: g=8b7ebc8331ffe1521baa1b54aae63095
+    Type: RAEtherNetIPTag
+    DataType: Float
+    Value: 0.0
+    Children:
+    - Name: SymbolName
+      Id: g=0c96c864fb90f2342434cb184328a8e5
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Diameter"
+  - Name: Exit_Temperature
+    Id: g=84ff3d6317c44625a897f934388198e5
+    Type: RAEtherNetIPTag
+    DataType: Float
+    Value: 0.0
+    Children:
+    - Name: SymbolName
+      Id: g=8de60e42f3117ac59fe555b45d931d48
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Exit_Temperature"
+  - Name: Height
+    Id: g=2506c81c13856f9b7628431e6340bfc7
+    Type: RAEtherNetIPTag
+    DataType: Float
+    Value: 0.0
+    Children:
+    - Name: SymbolName
+      Id: g=1b4a9c7e9f3f6b2b24afad06f3f82bac
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Height"
+  - Name: Quality_Index
+    Id: g=2c9256164e2ee439695cbb3061d4865b
+    Type: RAEtherNetIPTag
+    DataType: Float
+    Value: 0.0
+    Children:
+    - Name: SymbolName
+      Id: g=74179a2a8c4769f5df6825d3daf3fd08
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Quality_Index"

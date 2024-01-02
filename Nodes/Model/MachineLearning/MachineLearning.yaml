@@ -1,0 +1,129 @@
+Name: MachineLearning
+Id: g=dc69d104edfe396a2581a7c0aba0d5d3
+Type: FolderType
+Children:
+- Name: PredictResult
+  Id: g=2a4e81e49575e200b811738e6d07ab96
+  Type: BaseDataVariableType
+  DataType: Float
+  Value: 0.0
+- Name: PredictResultChanged
+  Id: g=429ee0f8a4a2e720282704dda7970744
+  Type: VariableChangedEventDispatcher
+  Children:
+  - Name: VariableNodePath
+    Id: g=e633712fb29139e97ecbc8b80fb4a1b1
+    Type: BaseVariableType
+    DataType: NodePath
+    Value: "../PredictResult"
+  - Name: VariableValueChangedEventHandler1
+    Id: g=ab71bb1073e4a78eb7b462acbbb12bb9
+    Type: EventHandler
+    Children:
+    - Name: ListenEventType
+      Id: g=4d57a16e7c6ad0c922975a4106fac75c
+      Type: PropertyType
+      DataType: NodeId
+      Value: {"Id":42,"Namespace":5}
+    - Name: MethodsToCall
+      Id: g=239f9b53a11deeae4bd171b963a3d7ab
+      Type: BaseObjectType
+      Children:
+      - Name: MethodContainer1
+        Id: g=825d7ab16267a66bc098e9f6881d0b5e
+        Type: BaseObjectType
+        Children:
+        - Name: ns=5;ObjectPointer
+          Id: g=4929da826813416f9d6dcbcaa3a5558b
+          Type: NodePointer
+          DataType: NodeId
+          Value: {"IdType":0,"Id":0,"Namespace":-1}
+          Children:
+          - Name: Kind
+            Id: g=649bbbbcf26283e31b50145958f27907
+            Type: PropertyType
+            DataType: NodeId
+            Value: {"Id":58}
+          - Name: DynamicLink
+            Id: g=0c42d0e1086f0a59b65ea789be207879
+            Type: DynamicLink
+            DataType: NodePath
+            Value: "../../../../../../../Loggers/MachineLearning@NodeId"
+            Children:
+            - Name: Mode
+              Id: g=002721a56863c02eba9bac0e912d5043
+              Type: BaseVariableType
+              DataType: DynamicLinkMode
+              Value: 2
+        - Name: ns=5;Method
+          Id: g=9cfb7a40962abc115920311e87ab4d17
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "Log"
+    - Name: EventArguments
+      Id: g=1c756a2261b94cfac04d4672bc4dd1af
+      Type: VariableValueChangedEvent
+      Children:
+      - Name: VariableNodeId
+        Id: g=30bbba22658b377d4e9f350e071c645b
+        Type: BaseVariableType
+        DataType: NodeId
+        Value: {"IdType":0,"Id":0,"Namespace":-1}
+      - Name: NewValue
+        Id: g=6c59fc023b45712de6b83a0801cecaf3
+        Type: BaseVariableType
+        DataType: BaseDataType
+      - Name: OldValue
+        Id: g=ea604ebb36f5e0fa91a9aec131c01f74
+        Type: BaseVariableType
+        DataType: BaseDataType
+      - Name: EventId
+        Id: g=1d889d7667a8830eb98dcdcbe86f9595
+        Type: PropertyType
+        DataType: ByteString
+        Value: ""
+      - Name: EventType
+        Id: g=c4277f549ec737b36a0e844bfffc9256
+        Type: PropertyType
+        DataType: NodeId
+        Value: {"IdType":0,"Id":0,"Namespace":-1}
+      - Name: SourceNode
+        Id: g=ee396564a1bec734211028c6fb3d64ab
+        Type: PropertyType
+        DataType: NodeId
+        Value: {"IdType":0,"Id":0,"Namespace":-1}
+      - Name: SourceName
+        Id: g=77828f528e90d65d686d3a4e59f3c54d
+        Type: PropertyType
+        DataType: String
+        Value: ""
+      - Name: Time
+        Id: g=75780e1eacd180240dafc324b0363b88
+        Type: PropertyType
+        DataType: UtcTime
+        Value: "1601-01-01T00:00:00.0000000"
+      - Name: ReceiveTime
+        Id: g=9b5bca3592683263b1c7251f1793286d
+        Type: PropertyType
+        DataType: UtcTime
+        Value: "1601-01-01T00:00:00.0000000"
+      - Name: Message
+        Id: g=37701f7857d60438c9e3e48042760b2f
+        Type: PropertyType
+        DataType: LocalizedText
+        Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+      - Name: Severity
+        Id: g=576a866441b1631892e3444f0e90e093
+        Type: PropertyType
+        DataType: UInt16
+        Value: 0
+- Name: Min
+  Id: g=a0f67549eb9e09da5dfef4ffb3fa7a30
+  Type: BaseDataVariableType
+  DataType: Int32
+  Value: 95
+- Name: Max
+  Id: g=7c91c8eb8ee978fc6eb738ea1bd3e22d
+  Type: BaseDataVariableType
+  DataType: Int32
+  Value: 105

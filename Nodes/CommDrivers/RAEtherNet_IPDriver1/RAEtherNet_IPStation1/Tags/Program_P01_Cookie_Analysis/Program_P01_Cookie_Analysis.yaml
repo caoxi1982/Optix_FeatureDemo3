@@ -1,0 +1,111 @@
+Name: 'Program:P01_Cookie_Analysis'
+Id: g=617dbe9dd46d14ced1a6440a895db1f8
+Type: FolderType
+Children:
+- Name: Cmd_AbnormalOperation
+  Id: g=1ffcf1ecb4457e51af88744820665d81
+  Type: RAEtherNetIPTag
+  DataType: Boolean
+  Value: false
+  Children:
+  - Name: SymbolName
+    Id: g=50c3ebd44de816549d660f2fa223b6d6
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:P01_Cookie_Analysis.Cmd_AbnormalOperation"
+- Name: Cmd_NormalOperation
+  Id: g=a1eb4b40dce5a4ccc01f8439009ab9a9
+  Type: RAEtherNetIPTag
+  DataType: Boolean
+  Value: false
+  Children:
+  - Name: SymbolName
+    Id: g=8b6aec6c1a90262281bbab560b12c919
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:P01_Cookie_Analysis.Cmd_NormalOperation"
+- Name: Cmd_QualityTrain
+  Id: g=d2f0f64029169e5a1bff5027e9ae288d
+  Type: RAEtherNetIPTag
+  DataType: Boolean
+  Value: false
+  Children:
+  - Name: SymbolName
+    Id: g=ec62cdc6b2648097552b00841db6faa7
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:P01_Cookie_Analysis.Cmd_QualityTrain"
+- Name: Index
+  Id: g=9073d0035d868239b58c6d481b9106fd
+  Type: RAEtherNetIPTag
+  DataType: Int32
+  Value: 0
+  Children:
+  - Name: SymbolName
+    Id: g=0289a91128b1961485eab46e2f34cf22
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:P01_Cookie_Analysis.Index"
+- Name: Val_LastCookie
+  Id: g=66ac8dc0176c49bf8723cda08f24722f
+  Type: Cookie_Quality
+  DataType: Cookie_Quality
+  Value: 
+   {
+    "TypeId": {
+     "IdType": 2,
+     "Id": "7116069abd2b3545eae11d8c593609bd",
+     "Namespace": 34
+    },
+    "Body": {
+     "Diameter": 0.0,
+     "Exit_Temperature": 0.0,
+     "Height": 0.0,
+     "Quality_Index": 0.0
+    }
+   }
+  Children:
+  - Name: Diameter
+    Id: g=7dc968186eec5551e979b5f3f4b91357
+    Type: RAEtherNetIPTag
+    DataType: Float
+    Value: 0.0
+    Children:
+    - Name: SymbolName
+      Id: g=3008088a0cd8c5c0251d379ea8f1bcc8
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:P01_Cookie_Analysis.Val_LastCookie.Diameter"
+  - Name: Exit_Temperature
+    Id: g=aa8af93c080bd8a031fda2999778cbc5
+    Type: RAEtherNetIPTag
+    DataType: Float
+    Value: 0.0
+    Children:
+    - Name: SymbolName
+      Id: g=db1ba487df9f9c98acc850e7c4d541d6
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:P01_Cookie_Analysis.Val_LastCookie.Exit_Temperature"
+  - Name: Height
+    Id: g=2252b92fe9fe65913bb10a36d162a41d
+    Type: RAEtherNetIPTag
+    DataType: Float
+    Value: 0.0
+    Children:
+    - Name: SymbolName
+      Id: g=ab2919bda29e0a5e56b279f2e75a09df
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:P01_Cookie_Analysis.Val_LastCookie.Height"
+  - Name: Quality_Index
+    Id: g=4922e30e6baf75ac963f5dcb26171c7a
+    Type: RAEtherNetIPTag
+    DataType: Float
+    Value: 0.0
+    Children:
+    - Name: SymbolName
+      Id: g=909fef99da045a772e86b7fc68fa932f
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:P01_Cookie_Analysis.Val_LastCookie.Quality_Index"

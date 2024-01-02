@@ -1,0 +1,268 @@
+﻿{
+  "Scenario": "Regression",
+  "DataSource": {
+    "Type": "TabularFile",
+    "Version": 1,
+    "FilePath": "C:\\myGitHub\\FeaturesDemo2\\ProjectFiles\\Data\\DataFromLab.csv",
+    "Delimiter": ",",
+    "DecimalMarker": ".",
+    "HasHeader": true,
+    "ColumnProperties": [
+      {
+        "ColumnName": "column1",
+        "ColumnPurpose": "Ignore",
+        "ColumnDataFormat": "Single",
+        "IsCategorical": false,
+        "Type": "Column",
+        "Version": 4
+      },
+      {
+        "ColumnName": "Diameter",
+        "ColumnPurpose": "Feature",
+        "ColumnDataFormat": "Single",
+        "IsCategorical": false,
+        "Type": "Column",
+        "Version": 4
+      },
+      {
+        "ColumnName": "Exit_Temperature",
+        "ColumnPurpose": "Feature",
+        "ColumnDataFormat": "Single",
+        "IsCategorical": false,
+        "Type": "Column",
+        "Version": 4
+      },
+      {
+        "ColumnName": "Height",
+        "ColumnPurpose": "Feature",
+        "ColumnDataFormat": "Single",
+        "IsCategorical": false,
+        "Type": "Column",
+        "Version": 4
+      },
+      {
+        "ColumnName": "Quality_Index",
+        "ColumnPurpose": "Label",
+        "ColumnDataFormat": "Single",
+        "IsCategorical": false,
+        "Type": "Column",
+        "Version": 4
+      }
+    ]
+  },
+  "Environment": {
+    "Type": "LocalCPU",
+    "Version": 1
+  },
+  "RunHistory": {
+    "Version": 3,
+    "Type": "Result",
+    "Trials": [
+      {
+        "Version": 1,
+        "Type": "Trial",
+        "TrainerName": "LbfgsPoissonRegressionRegression",
+        "Score": 0.99950514397750845,
+        "RuntimeInSeconds": 0.063,
+        "Parameter": {
+          "_SCHEMA_": "e0 * e1 * e4",
+          "e0": {
+            "OutputColumnNames": [
+              "Diameter",
+              "Exit_Temperature",
+              "Height"
+            ],
+            "InputColumnNames": [
+              "Diameter",
+              "Exit_Temperature",
+              "Height"
+            ]
+          },
+          "e1": {
+            "InputColumnNames": [
+              "Diameter",
+              "Exit_Temperature",
+              "Height"
+            ],
+            "OutputColumnName": "Features"
+          },
+          "e4": {
+            "L1Regularization": 2.661682,
+            "L2Regularization": 2.23991346,
+            "LabelColumnName": "Quality_Index",
+            "FeatureColumnName": "Features"
+          }
+        }
+      },
+      {
+        "Version": 1,
+        "Type": "Trial",
+        "TrainerName": "LbfgsPoissonRegressionRegression",
+        "Score": 0.99950425718249014,
+        "RuntimeInSeconds": 0.071,
+        "Parameter": {
+          "_SCHEMA_": "e0 * e1 * e4",
+          "e0": {
+            "OutputColumnNames": [
+              "Diameter",
+              "Exit_Temperature",
+              "Height"
+            ],
+            "InputColumnNames": [
+              "Diameter",
+              "Exit_Temperature",
+              "Height"
+            ]
+          },
+          "e1": {
+            "InputColumnNames": [
+              "Diameter",
+              "Exit_Temperature",
+              "Height"
+            ],
+            "OutputColumnName": "Features"
+          },
+          "e4": {
+            "L1Regularization": 2.839525,
+            "L2Regularization": 2.35237455,
+            "LabelColumnName": "Quality_Index",
+            "FeatureColumnName": "Features"
+          }
+        }
+      },
+      {
+        "Version": 1,
+        "Type": "Trial",
+        "TrainerName": "LbfgsPoissonRegressionRegression",
+        "Score": 0.999504252709122,
+        "RuntimeInSeconds": 0.057,
+        "Parameter": {
+          "_SCHEMA_": "e0 * e1 * e4",
+          "e0": {
+            "OutputColumnNames": [
+              "Diameter",
+              "Exit_Temperature",
+              "Height"
+            ],
+            "InputColumnNames": [
+              "Diameter",
+              "Exit_Temperature",
+              "Height"
+            ]
+          },
+          "e1": {
+            "InputColumnNames": [
+              "Diameter",
+              "Exit_Temperature",
+              "Height"
+            ],
+            "OutputColumnName": "Features"
+          },
+          "e4": {
+            "L1Regularization": 2.84705162,
+            "L2Regularization": 2.48296022,
+            "LabelColumnName": "Quality_Index",
+            "FeatureColumnName": "Features"
+          }
+        }
+      },
+      {
+        "Version": 1,
+        "Type": "Trial",
+        "TrainerName": "LbfgsPoissonRegressionRegression",
+        "Score": 0.99950272142836083,
+        "RuntimeInSeconds": 0.068,
+        "Parameter": {
+          "_SCHEMA_": "e0 * e1 * e4",
+          "e0": {
+            "OutputColumnNames": [
+              "Diameter",
+              "Exit_Temperature",
+              "Height"
+            ],
+            "InputColumnNames": [
+              "Diameter",
+              "Exit_Temperature",
+              "Height"
+            ]
+          },
+          "e1": {
+            "InputColumnNames": [
+              "Diameter",
+              "Exit_Temperature",
+              "Height"
+            ],
+            "OutputColumnName": "Features"
+          },
+          "e4": {
+            "L1Regularization": 3.08559632,
+            "L2Regularization": 2.50903916,
+            "LabelColumnName": "Quality_Index",
+            "FeatureColumnName": "Features"
+          }
+        }
+      },
+      {
+        "Version": 1,
+        "Type": "Trial",
+        "TrainerName": "LbfgsPoissonRegressionRegression",
+        "Score": 0.9995025020758288,
+        "RuntimeInSeconds": 0.079,
+        "Parameter": {
+          "_SCHEMA_": "e0 * e1 * e4",
+          "e0": {
+            "OutputColumnNames": [
+              "Diameter",
+              "Exit_Temperature",
+              "Height"
+            ],
+            "InputColumnNames": [
+              "Diameter",
+              "Exit_Temperature",
+              "Height"
+            ]
+          },
+          "e1": {
+            "InputColumnNames": [
+              "Diameter",
+              "Exit_Temperature",
+              "Height"
+            ],
+            "OutputColumnName": "Features"
+          },
+          "e4": {
+            "L1Regularization": 3.22876239,
+            "L2Regularization": 2.83411741,
+            "LabelColumnName": "Quality_Index",
+            "FeatureColumnName": "Features"
+          }
+        }
+      }
+    ],
+    "Estimators": {
+      "e0": "ReplaceMissingValues",
+      "e1": "Concatenate",
+      "e2": "FastTreeRegression",
+      "e3": "FastForestRegression",
+      "e4": "LbfgsPoissonRegressionRegression",
+      "e5": "SdcaRegression"
+    },
+    "Schema": "e0 * e1 * (e2 + e3 + e4 + e5)",
+    "MetricName": "RSquared",
+    "ModelFilePath": "C:\\myGitHub\\FeaturesDemo2\\ProjectFiles\\NetSolution\\CookieQuality.mlnet"
+  },
+  "Type": "TrainingConfig",
+  "Version": 4,
+  "TrainingOption": {
+    "Version": 2,
+    "Subsampling": false,
+    "Type": "RegressionTrainingOption",
+    "TrainingTime": 200,
+    "LabelColumn": "Quality_Index",
+    "ValidationOption": {
+      "Version": 0,
+      "Type": "CrossValidationValidationOption",
+      "NumberOfFolds": 5
+    }
+  }
+}

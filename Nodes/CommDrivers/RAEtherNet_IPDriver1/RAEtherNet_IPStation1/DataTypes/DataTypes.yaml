@@ -1,0 +1,46 @@
+Name: DataTypes
+Id: g=0255b7c4d619e2a51d78ffc53cb2adaf
+Type: FolderType
+Children:
+- Class: DataType
+  Name: Cookie_Quality
+  Id: g=7116069abd2b3545eae11d8c593609bd
+  Supertype: Structure
+  StructDefinition: 
+   {
+    "Name": "Cookie_Quality",
+    "DataType": {
+     "IdType": 2,
+     "Id": "7116069abd2b3545eae11d8c593609bd",
+     "Namespace": 34
+    },
+    "Fields": [{
+      "Name": "Diameter",
+      "DataType": {
+       "Id": 10
+      }
+     },{
+      "Name": "Exit_Temperature",
+      "DataType": {
+       "Id": 10
+      }
+     },{
+      "Name": "Height",
+      "DataType": {
+       "Id": 10
+      }
+     },{
+      "Name": "Quality_Index",
+      "DataType": {
+       "Id": 10
+      }
+     }]
+   }
+  DisplayName: {"NamespaceIndex":34,"TextId":"Cookie_Quality"}
+  Children:
+  - Name: ns=0;Default Binary
+    Id: g=33d8b2b19c2ec98eb448d3d61da4d725
+    Type: DataTypeEncodingType
+    ModellingRule: None
+    DisplayName: {"LocaleId":"","Text":"Default Binary"}
+    ReferenceType: HasEncoding
